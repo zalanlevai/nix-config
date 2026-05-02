@@ -2,6 +2,8 @@
   flake.nixosModules.desktopConfiguration = { pkgs, lib, ... }: {
     imports = [
       self.nixosModules.desktopHardware
+
+      self.nixosModules.git
     ];
 
     # Bootloader.
