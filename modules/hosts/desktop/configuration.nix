@@ -4,6 +4,7 @@
       self.nixosModules.desktopHardware
 
       self.nixosModules.git
+      self.nixosModules.shell
     ];
 
     # Bootloader.
